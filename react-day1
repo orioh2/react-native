@@ -1,0 +1,375 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@orioh2 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+orioh2
+/
+react-native
+1
+00
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Day1 #1
+ Open
+orioh2 opened this issue 19 hours ago · 0 comments
+ Open
+Day1
+#1
+orioh2 opened this issue 19 hours ago · 0 comments
+Comments
+@orioh2
+ 
+Owner
+orioh2 commented 19 hours ago
+import React, { Component } from 'react';
+//import {StyleSheet,Text,View} from 'react-native';
+import {View,Text,Image,ScrollView,TextInput} from 'react-native';
+// const BasicFunctionComponent= () => {
+// return (
+// <View style={{
+// flex: 1,
+// justifyContent: "center",
+// alignItems: 'center'}}>
+// Basic Function Component Example.
+// Powered by Facebook
+//
+// );
+// }
+//export default BasicFunctionComponent;
+// class BasicClassComponent extends Component{
+// render() {
+// return (
+// <View style={{
+// flex: 1,
+// justifyContent: "center",
+// alignItems: 'center'}}>
+// Basic Class Component Example.
+//
+// );
+// }
+// }
+//export default BasicClassComponent;
+
+// const FixedDimensions = () => {
+// return(
+//
+// <View style={{width:50,height:50,
+// backgroundColor: 'powderblue'}} />
+// <View style={{width:100,height:100,
+// backgroundColor: 'skyblue'}} />
+// <View style={{width:150,height:150,
+// backgroundColor: 'steelblue'}} />
+//
+// );
+// };
+// const FixedDimensions = () => {
+// return(
+//
+// <View style={{flex:1,
+// backgroundColor: 'red'}} />
+// <View style={{flex:2,
+// backgroundColor: 'skyblue'}} />
+// <View style={{flex:3,
+// backgroundColor: 'steelblue'}} />
+//
+// );
+// };
+//export default FixedDimensions;
+// const FlexDimensions = () => {
+// return(
+// <View style={{
+// flex:1,
+// flexDirection:'row-reverse'}
+// }>
+// <View style={{width:50,height:50,
+// backgroundColor: 'powderblue'}} />
+// <View style={{width:50,height:50,
+// backgroundColor: 'skyblue'}} />
+// <View style={{width:50,height:50,
+// backgroundColor: 'steelblue'}} />
+//
+// );
+// };
+
+// export default FlexDimensions;
+// const FlexDimensions = () => {
+// return(
+// <View style={{
+// flex:1,
+// flexDirection:'column',
+// justifyContent: 'center',
+// alignItems:'stretch',
+// }
+// }>
+// <View style={{width:50,height:50,
+// backgroundColor: 'red'}} />
+// <View style={{height:50,
+// backgroundColor: 'green'}} />
+// <View style={{height:100,
+// backgroundColor: 'blue'}} />
+//
+// );
+// };
+
+// export default FlexDimensions;
+
+//core component
+// export default class App extends React.Component{
+// render(){
+// return(
+// <View style={{
+// flex:1,
+// justifyContent: 'center',
+// alignItems:'center',
+// }}>
+// React Native
+// Google Flutter
+// Native Script
+//
+// );
+// }
+// }
+
+// class App extends Component{
+// render(){
+// return(
+// <View style={{
+// flex:1,
+// justifyContent: 'center',
+// alignItems:'center',
+// }}>
+// React Native
+// Google Flutter
+// Native Script
+//
+// );
+// }
+// }
+// export default App;
+
+// export default class App extends React.Component{
+// render(){
+// return(
+//
+// React Native
+// Google Flutter
+// Native Script
+
+//
+// );
+// }
+// }
+// const st = StyleSheet.create({
+// container:{
+// flex:1,
+// backgroundColor: 'steelblue',
+// justifyContent: 'center',
+// alignItems:'center',
+// },
+// title:{
+// fontSize:40,
+// alignItems:'center',
+// fontWeight:'bold',
+// color:'blue',
+// },
+// });
+
+//#component3
+// const App = () => {
+// return (
+//
+// React Native Mobile Application
+//
+// Core Component
+// <Image
+// source={{
+// uri: 'https://reactnative.dev/docs/assets/p_cat2.png',
+// }}
+// style={{width:200,height=200}}
+// />
+//
+// <TextInput
+// style={{height:40,borderColor:'gray',borderWidth:1}}
+// defaultValue="this is TextInput Componenet"
+// />
+//
+// );
+// }
+// export default App;
+// const App = () => {
+// return (
+//
+// React Native Mobile Application
+//
+// Core Component
+// <Image
+// source={{
+// uri: 'https://reactnative.dev/docs/assets/p_cat2.png',
+// }}
+// style={{ width: 200, height: 200 }}
+// />
+//
+// <TextInput
+// style={{height: 40, borderColor: 'gray', borderWidth: 1 }}
+// defaultValue="This is TextInput Component."
+// />
+//
+// );
+// }
+// export default App;
+//multi container
+// const Library = () => {
+// return (
+//
+// React and React Native
+//
+// );
+// }
+
+// const Mobile = () => {
+// return (
+// <View style={{flex:1,justifyContent: "center",
+// alignItems: "center"}}>
+// Welcome to
+//
+//
+//
+//
+// );
+// }
+// export default Mobile;
+
+//state prop
+// export default class App extends React.Component{
+// constructor(props){
+// super(props);
+// this.state = {valx:0,valy:10000000};
+
+// setInterval(() => {
+// this.setState({valx:this.state.valx+1});
+// this.setState({valy:this.state.valy-1});
+// },1000);
+// }
+
+// render(){
+// return(
+//
+// {"valx: "+this.state.valx}
+// {"valy: "+this.state.valy}
+//
+// );
+// }
+
+// }
+
+//#prop
+
+// class MyCustomTextWith extends Component{
+// render(){
+// return(
+//
+// Your First Name is {this.props.firstname}
+// and Last name is{' '}{this.props.secondname}
+//
+// );
+// }
+// }
+
+// export default class LotsOfGreetings extends Component{
+// render(){
+// return(
+// <view style={{justifyContnet:'center',alignItems:'center',flex:1}}>
+// <MyCustomTextWith
+// firstname='fname1'
+// secondname='lname1'/>
+// <MyCustomTextWith
+// firstname='fname2'
+// secondname='lname2'/>
+//
+// );
+// }
+// }
+class MyCustomTextWith extends Component {
+render() {
+return (
+
+Your First Name is {this.props.firstname}!
+and Last name is{' '}{this.props.secondname}
+
+
+);
+}
+}
+
+export default class LotsOfGreetings extends Component {
+render() {
+return (
+<View style={{justifyContent: 'center',
+alignItems: 'center', flex:1}}>
+
+    <MyCustomTextWith 
+      firstname='fName1' 
+      secondname='lname1'/>        
+    <MyCustomTextWith 
+      firstname='fName3' 
+      secondname='lname3' />
+  </View>
+);
+}
+}
+
+@orioh2
+
+ 
+ 
+Leave a comment
+
+Attach files by dragging & dropping, selecting or pasting them.
+Remember, contributions to this repository should follow our GitHub Community Guidelines.
+AssigneesNo one—
+Labels
+None yet
+ProjectsNone yet
+MilestoneNo milestone
+Linked pull requests
+Successfully merging a pull request may close this issue.
+
+None yet
+Notifications
+Customize
+You’re receiving notifications because you’re watching this repository.
+1 participant
+@orioh2
+ Lock conversation
+ 
+ Transfer issue
+ Delete issue
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
